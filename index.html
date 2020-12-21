@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="../css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minion Translate</title>
+	<style>
+		textarea {
+			width: 80%;
+			height: 10vh;
+			display: block;
+			margin: 1rem;
+			padding: 1rem;
+			background: #f1f1d0;
+		}
+
+		#output {
+			border: 1px solid black;
+			height: 10vh;
+			width: 80%;
+			margin: 1rem;
+			padding: 1rem;
+			background: #f1f1d0;
+		}
+		body {
+			background-image: url('./images/minions.jpg');
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-size: cover;
+		}
+	</style>
+</head>
+
+<body>
+	<h1  style="color: yellow"> Go Bananas</h1>
+	<textarea id="txt-input"
+			  placeholder="Write Here and See it go Bananas"></textarea>
+	<button class="link link-primary" style="alignment: center">Translate</button>
+	
+	<h2 class="link" style="color: yellow">What would a Minion Say 👇</h2>
+	<div id="output" ></div>
+	<script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
